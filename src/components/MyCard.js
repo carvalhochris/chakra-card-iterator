@@ -28,7 +28,7 @@ function MyCard(props) {
               {props.desc}
             </Text>
             <Text color="blue.600" fontSize="2xl">
-              $450
+              {props.price}
             </Text>
           </Stack>
         </CardBody>
