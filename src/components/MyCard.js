@@ -15,7 +15,7 @@ function MyCard(props) {
 
   return (
     <Center>
-      <Card maxW="sm">
+      <Card p={2} maxW="sm">
         <CardBody>
           <Image
             src={props.image}

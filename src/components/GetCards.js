@@ -17,7 +17,7 @@ function GetCards () {
         <div key={item.id}>
           {/* <h2>{item.title}</h2>
           <p>{item.body}</p> */}
-          <MyCard m={2} title={item.title} desc={item.desc} price={item.price} image={item.image} />
+          <MyCard title={item.title} desc={item.desc} price={item.price} image={item.image} />
         </div>
       ))}
     </div>
