@@ -6,7 +6,7 @@ function GetCards () {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get("https://warm-gorge-84676.herokuapp.com/cards").then((response) => {
+    axios.get("https://warm-gorge-84676.herokuapp.com/cards/").then((response) => {
       setData(response.data);
     });
   }, []);
