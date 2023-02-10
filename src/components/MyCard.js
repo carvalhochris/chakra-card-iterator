@@ -3,7 +3,7 @@ import {
   // Button,
   // CardFooter,
   Text,
-  Divider,
+  // Divider,
   // ButtonGroup,
   Image,
   Stack,
@@ -30,7 +30,7 @@ function MyCard(props) {
             </Text>
           </Stack>
         </CardBody>
-        <Divider />
+        {/* <Divider /> */}
         {/* <CardFooter>
           <ButtonGroup spacing="2">
             <Button variant="solid" colorScheme="blue">
