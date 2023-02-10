@@ -1,9 +1,10 @@
-import { Card, Center, CardBody, CardFooter } from "@chakra-ui/react";
+import { Card, Center, CardBody } from "@chakra-ui/react";
 import {
-  Button,
+  // Button,
+  // CardFooter,
   Text,
   Divider,
-  ButtonGroup,
+  // ButtonGroup,
   Image,
   Stack,
   Heading,
@@ -12,7 +13,6 @@ import {
 // import { useEffect, useState } from "react";
 
 function MyCard(props) {
-
   return (
     <Center>
       <Card m={2} maxW="sm">
@@ -24,16 +24,14 @@ function MyCard(props) {
           />
           <Stack mt="6" spacing="3">
             <Heading size="md">{props.title}</Heading>
-            <Text>
-              {props.desc}
-            </Text>
+            <Text>{props.desc}</Text>
             <Text color="blue.600" fontSize="2xl">
               ${props.price}
             </Text>
           </Stack>
         </CardBody>
         <Divider />
-        <CardFooter>
+        {/* <CardFooter>
           <ButtonGroup spacing="2">
             <Button variant="solid" colorScheme="blue">
               Buy now
@@ -42,7 +40,7 @@ function MyCard(props) {
               Add to cart
             </Button>
           </ButtonGroup>
-        </CardFooter>
+        </CardFooter> */}
       </Card>
     </Center>
   );
